@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import io from 'socket.io-client';
 
-const socket = io('https://910e-103-181-62-119.ngrok-free.app',{
+const socket = io('https://dc90-103-181-62-119.ngrok-free.app',{
     transports: ['websocket'],
 });
 
